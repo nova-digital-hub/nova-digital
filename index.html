@@ -1,963 +1,1396 @@
+
 <!DOCTYPE html>
 <html lang="tr">
+<link rel="stylesheet" href="style.css">
 <head>
-    
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Temel -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NOVA — Dijitalde Fark Edilin</title>
+    <!-- SEO -->
+    <title>NOVA Digital | Web Tasarım ve Web Geliştirme</title>
 
     <meta name="description"
-          content="NOVA, işletmeler için modern, hızlı ve dönüşüm odaklı web siteleri tasarlar.">
+          content="NOVA Digital; işletmeler için modern, hızlı, mobil uyumlu ve kullanıcı odaklı web siteleri tasarlar ve geliştirir.">
 
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="NOVA Digital">
+
+    <!-- Canonical -->
+    <link rel="canonical"
+          href="https://nova-digital-hub.github.io/nova-digital/">
+
+    <!-- Google / Mobil -->
     <meta name="theme-color" content="#07070a">
 
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title"
+          content="NOVA Digital | Web Tasarım ve Web Geliştirme">
+
+    <meta property="og:description"
+          content="Modern, hızlı ve mobil uyumlu web siteleri tasarlıyor ve geliştiriyoruz.">
+
+    <meta property="og:url"
+          content="https://nova-digital-hub.github.io/nova-digital/">
+
+    <meta property="og:site_name"
+          content="NOVA Digital">
+
+    <meta property="og:image"
+          content="https://nova-digital-hub.github.io/nova-digital/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="NOVA Digital | Web Tasarım ve Web Geliştirme">
+
+    <meta name="twitter:description"
+          content="Modern, hızlı ve mobil uyumlu web siteleri tasarlıyoruz.">
+
+    <meta name="twitter:image"
+          content="https://nova-digital-hub.github.io/nova-digital/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
           rel="stylesheet">
 
+    <!-- Remix Icon -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Yapılandırılmış Veri -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NOVA Digital",
+        "url": "https://nova-digital-hub.github.io/nova-digital/",
+        "logo": "https://nova-digital-hub.github.io/nova-digital/favicon.png",
+        "email": "mailto:erenkusmez0502@gmail.com",
+        "description": "Modern, hızlı ve mobil uyumlu web siteleri tasarlayan ve geliştiren dijital ajans.",
+        "sameAs": [
+            "https://www.instagram.com/nova.digitalll/"
+        ]
+    }
+    </script>
+
 </head>
+
 
 <body>
 
-<div class="cursor"></div>
-<div class="cursor-follower"></div>
+    <!-- Özel Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
 
-<div class="noise"></div>
-<div class="background-glow glow-1"></div>
-<div class="background-glow glow-2"></div>
+    <!-- Arka Plan -->
+    <div class="noise"></div>
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
 
-<header class="navbar" id="navbar">
 
-    <a href="#home" class="logo">
-        <span class="logo-mark">N</span>
-        NOVA<span>.</span>
-    </a>
+    <!-- ==================== NAVBAR ==================== -->
 
-    <nav class="nav-links">
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-mark">N</span>
+            NOVA<span>.</span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#services">Hizmetler</a>
+            <a href="#work">Çalışmalar</a>
+            <a href="#process">Süreç</a>
+            <a href="#faq">SSS</a>
+
+        </nav>
+
+        <a href="#contact" class="nav-cta">
+
+            Projeni Başlat
+
+            <i class="ri-arrow-right-up-line"></i>
+
+        </a>
+
+        <button class="menu-button"
+                id="menuButton"
+                aria-label="Menüyü aç">
+
+            <i class="ri-menu-3-line"></i>
+
+        </button>
+
+    </header>
+
+
+    <!-- Mobil Menü -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
         <a href="#services">Hizmetler</a>
         <a href="#work">Çalışmalar</a>
         <a href="#process">Süreç</a>
         <a href="#faq">SSS</a>
-    </nav>
-
-    <a href="#contact" class="nav-cta">
-        Projeni Başlat
-        <i class="ri-arrow-right-up-line"></i>
-    </a>
-
-    <button class="menu-button" id="menuButton">
-        <i class="ri-menu-3-line"></i>
-    </button>
-
-</header>
-
-<div class="mobile-menu" id="mobileMenu">
-
-    <a href="#services">Hizmetler</a>
-    <a href="#work">Çalışmalar</a>
-    <a href="#process">Süreç</a>
-    <a href="#faq">SSS</a>
-    <a href="#contact">İletişim</a>
-
-</div>
-
-
-<main>
-
-<section class="hero section" id="home">
-
-    <div class="hero-content">
-
-        <div class="eyebrow reveal">
-            <span class="status-dot"></span>
-            Dijitalde yeni bir dönem
-        </div>
-
-        <h1 class="hero-title reveal">
-            Dijitalde sadece
-            <span class="gradient-text">görünmeyin.</span>
-            <br>
-            <span class="outline-text">Fark edilin.</span>
-        </h1>
-
-        <p class="hero-description reveal">
-            Markanızı sıradan web sitelerinden ayıran,
-            hızlı, modern ve dönüşüm odaklı dijital deneyimler
-            tasarlıyoruz.
-        </p>
-
-        <div class="hero-buttons reveal">
-
-            <a href="#contact" class="button button-primary">
-                Projeni Anlat
-                <i class="ri-arrow-right-line"></i>
-            </a>
-
-            <a href="#work" class="button button-secondary">
-                Çalışmaları Gör
-                <i class="ri-play-circle-line"></i>
-            </a>
-
-        </div>
-
-        <div class="hero-trust reveal">
-
-            <div class="avatars">
-                <span>MK</span>
-                <span>EA</span>
-                <span>AY</span>
-                <span>+</span>
-            </div>
-
-            <div>
-                <strong>Mutlu müşteriler</strong>
-                <small>Markasını dijitale taşıyan işletmeler</small>
-            </div>
-
-        </div>
+        <a href="#contact">İletişim</a>
 
     </div>
 
 
-
-    <div class="hero-visual reveal">
-
-        <div class="orbit orbit-1"></div>
-        <div class="orbit orbit-2"></div>
-
-        <div class="floating-card card-top">
-
-            <div class="mini-icon purple">
-                <i class="ri-line-chart-line"></i>
-            </div>
-
-            <div>
-                <strong>+184%</strong>
-                <span>Dönüşüm</span>
-            </div>
-
-        </div>
+    <main>
 
 
-        <div class="visual-main">
+        <!-- ==================== HERO ==================== -->
 
-            <div class="visual-header">
+        <section class="hero section" id="home">
 
-                <div class="browser-dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="hero-content">
+
+                <div class="eyebrow reveal">
+
+                    <span class="status-dot"></span>
+
+                    Dijitalde yeni bir dönem
+
                 </div>
 
-                <span>nova.digital</span>
 
-            </div>
+                <h1 class="hero-title reveal">
 
-            <div class="visual-content">
+                    Dijitalde sadece
 
-                <div class="visual-label">DIGITAL EXPERIENCE</div>
+                    <span class="gradient-text">
+                        görünmeyin.
+                    </span>
 
-                <div class="visual-title">
-                    YOUR BRAND
                     <br>
-                    <span>DESERVES MORE.</span>
+
+                    <span class="outline-text">
+                        Fark edilin.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description reveal">
+
+                    NOVA Digital; işletmeler için modern,
+                    hızlı, mobil uyumlu ve kullanıcı odaklı
+                    web siteleri tasarlar ve geliştirir.
+
+                </p>
+
+
+                <div class="hero-buttons reveal">
+
+                    <a href="#contact"
+                       class="button button-primary">
+
+                        Projeni Anlat
+
+                        <i class="ri-arrow-right-line"></i>
+
+                    </a>
+
+
+                    <a href="#work"
+                       class="button button-secondary">
+
+                        Çalışmaları Gör
+
+                        <i class="ri-play-circle-line"></i>
+
+                    </a>
+
                 </div>
 
-                <div class="visual-line"></div>
 
-                <div class="visual-bottom">
+                <!-- Şimdilik gerçek müşteri olmadığı için
+                     yanıltıcı müşteri sayısı kullanılmıyor -->
 
-                    <span>Creative / Strategy / Development</span>
+                <div class="hero-trust reveal">
 
-                    <div class="visual-circle">
-                        <i class="ri-arrow-right-up-line"></i>
+                    <div class="avatars">
+
+                        <span>✨</span>
+                        <span>⚡</span>
+                        <span>🚀</span>
+                        <span>+</span>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Yeni nesil dijital deneyimler
+                        </strong>
+
+                        <small>
+                            Markanızı dijital dünyada öne çıkarın
+                        </small>
+
                     </div>
 
                 </div>
 
             </div>
 
-        </div>
 
+            <!-- Hero Görsel -->
 
-        <div class="floating-card card-bottom">
+            <div class="hero-visual reveal">
 
-            <div class="mini-icon green">
-                <i class="ri-speed-up-line"></i>
-            </div>
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
 
-            <div>
-                <strong>98/100</strong>
-                <span>Performans</span>
-            </div>
 
-        </div>
+                <div class="floating-card card-top">
 
-    </div>
+                    <div class="mini-icon purple">
 
+                        <i class="ri-line-chart-line"></i>
 
-    <div class="scroll-indicator">
+                    </div>
 
-        <span>SCROLL</span>
+                    <div>
 
-        <div class="scroll-line"></div>
+                        <strong>+184%</strong>
+                        <span>Dönüşüm</span>
 
-    </div>
+                    </div>
 
-</section>
+                </div>
 
 
+                <div class="visual-main">
 
-<div class="marquee">
+                    <div class="visual-header">
 
-    <div class="marquee-track">
+                        <div class="browser-dots">
 
-        <span>WEB DESIGN</span>
-        <i class="ri-star-fill"></i>
+                            <span></span>
+                            <span></span>
+                            <span></span>
 
-        <span>DEVELOPMENT</span>
-        <i class="ri-star-fill"></i>
+                        </div>
 
-        <span>BRANDING</span>
-        <i class="ri-star-fill"></i>
+                        <span>nova.digital</span>
 
-        <span>DIGITAL EXPERIENCE</span>
-        <i class="ri-star-fill"></i>
+                    </div>
 
-        <span>WEB DESIGN</span>
-        <i class="ri-star-fill"></i>
 
-        <span>DEVELOPMENT</span>
-        <i class="ri-star-fill"></i>
+                    <div class="visual-content">
 
-        <span>BRANDING</span>
-        <i class="ri-star-fill"></i>
+                        <div class="visual-label">
+                            DIGITAL EXPERIENCE
+                        </div>
 
-        <span>DIGITAL EXPERIENCE</span>
-        <i class="ri-star-fill"></i>
+                        <div class="visual-title">
 
-    </div>
+                            YOUR BRAND
 
-</div>
+                            <br>
 
+                            <span>
+                                DESERVES MORE.
+                            </span>
 
+                        </div>
 
-<section class="section services" id="services">
+                        <div class="visual-line"></div>
 
-    <div class="section-heading">
 
-        <div class="eyebrow reveal">
-            <span class="number">01</span>
-            Hizmetler
-        </div>
+                        <div class="visual-bottom">
 
-        <h2 class="section-title reveal">
-            Markanız için
-            <span class="gradient-text">ne yapabiliriz?</span>
-        </h2>
+                            <span>
+                                Creative / Strategy / Development
+                            </span>
 
-        <p class="section-description reveal">
-            Sadece güzel görünen değil, işletmenize gerçek değer
-            katan dijital çözümler geliştiriyoruz.
-        </p>
+                            <div class="visual-circle">
 
-    </div>
+                                <i class="ri-arrow-right-up-line"></i>
 
+                            </div>
 
-    <div class="services-grid">
+                        </div>
 
-        <article class="service-card reveal">
+                    </div>
 
-            <div class="service-number">01</div>
+                </div>
 
-            <div class="service-icon">
-                <i class="ri-layout-4-line"></i>
-            </div>
 
-            <h3>Web Tasarım</h3>
+                <div class="floating-card card-bottom">
 
-            <p>
-                Markanızın kimliğine özel, modern ve kullanıcı
-                odaklı web deneyimleri.
-            </p>
+                    <div class="mini-icon green">
 
-            <div class="service-link">
-                Detayları keşfet
-                <i class="ri-arrow-right-up-line"></i>
-            </div>
+                        <i class="ri-speed-up-line"></i>
 
-        </article>
+                    </div>
 
+                    <div>
 
-        <article class="service-card featured reveal">
+                        <strong>98/100</strong>
+                        <span>Performans</span>
 
-            <div class="service-number">02</div>
-
-            <div class="service-icon">
-                <i class="ri-code-s-slash-line"></i>
-            </div>
-
-            <h3>Web Geliştirme</h3>
-
-            <p>
-                Temiz kod, yüksek performans ve tüm cihazlarda
-                kusursuz çalışan web siteleri.
-            </p>
-
-            <div class="service-link">
-                Detayları keşfet
-                <i class="ri-arrow-right-up-line"></i>
-            </div>
-
-        </article>
-
-
-        <article class="service-card reveal">
-
-            <div class="service-number">03</div>
-
-            <div class="service-icon">
-                <i class="ri-rocket-2-line"></i>
-            </div>
-
-            <h3>SEO & Performans</h3>
-
-            <p>
-                Daha hızlı açılan, arama motorlarına uygun ve
-                kullanıcı deneyimi güçlü siteler.
-            </p>
-
-            <div class="service-link">
-                Detayları keşfet
-                <i class="ri-arrow-right-up-line"></i>
-            </div>
-
-        </article>
-
-
-        <article class="service-card reveal">
-
-            <div class="service-number">04</div>
-
-            <div class="service-icon">
-                <i class="ri-smartphone-line"></i>
-            </div>
-
-            <h3>Mobil Deneyim</h3>
-
-            <p>
-                Telefon, tablet ve masaüstünde kusursuz
-                çalışan responsive tasarımlar.
-            </p>
-
-            <div class="service-link">
-                Detayları keşfet
-                <i class="ri-arrow-right-up-line"></i>
-            </div>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-
-<section class="stats-section">
-
-    <div class="stats-grid">
-
-        <div class="stat reveal">
-            <strong data-target="24">0</strong>
-            <span>+</span>
-            <p>Tamamlanan proje</p>
-        </div>
-
-        <div class="stat reveal">
-            <strong data-target="98">0</strong>
-            <span>%</span>
-            <p>Müşteri memnuniyeti</p>
-        </div>
-
-        <div class="stat reveal">
-            <strong data-target="4">0</strong>
-            <span>.9/5</span>
-            <p>Ortalama değerlendirme</p>
-        </div>
-
-        <div class="stat reveal">
-            <strong data-target="3">0</strong>
-            <span>+</span>
-            <p>Yıllık deneyim</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="section work" id="work">
-
-    <div class="section-heading work-heading">
-
-        <div>
-
-            <div class="eyebrow reveal">
-                <span class="number">02</span>
-                Seçili çalışmalar
-            </div>
-
-            <h2 class="section-title reveal">
-                Fikirleri
-                <span class="gradient-text">gerçeğe dönüştürüyoruz.</span>
-            </h2>
-
-        </div>
-
-        <p class="section-description reveal">
-            Her proje farklıdır. Her tasarım markanın hikâyesine
-            göre şekillenir.
-        </p>
-
-    </div>
-
-
-    <div class="projects">
-
-        <a href="#" class="project project-large reveal">
-
-            <div class="project-image project-one">
-
-                <div class="project-overlay">
-
-                    <span>01 / E-COMMERCE</span>
-
-                    <div class="project-arrow">
-                        <i class="ri-arrow-right-up-line"></i>
                     </div>
 
                 </div>
 
             </div>
 
-            <div class="project-info">
 
-                <div>
-                    <h3>EK Store</h3>
-                    <span>E-Commerce / Art Direction</span>
-                </div>
+            <div class="scroll-indicator">
 
-                <i class="ri-arrow-right-up-line"></i>
+                <span>SCROLL</span>
+
+                <div class="scroll-line"></div>
 
             </div>
 
-        </a>
+        </section>
 
 
-        <a href="#" class="project reveal">
+        <!-- ==================== MARQUEE ==================== -->
 
-            <div class="project-image project-two">
+        <div class="marquee">
 
-                <div class="project-overlay">
+            <div class="marquee-track">
 
-                    <span>02 / RESTAURANT</span>
+                <span>WEB DESIGN</span>
+                <i class="ri-star-fill"></i>
 
-                    <div class="project-arrow">
-                        <i class="ri-arrow-right-up-line"></i>
-                    </div>
+                <span>DEVELOPMENT</span>
+                <i class="ri-star-fill"></i>
 
-                </div>
+                <span>BRANDING</span>
+                <i class="ri-star-fill"></i>
 
-            </div>
+                <span>DIGITAL EXPERIENCE</span>
+                <i class="ri-star-fill"></i>
 
-            <div class="project-info">
+                <span>WEB DESIGN</span>
+                <i class="ri-star-fill"></i>
 
-                <div>
-                    <h3> Restaurant</h3>
-                    <span>Branding / Web Design</span>
-                </div>
+                <span>DEVELOPMENT</span>
+                <i class="ri-star-fill"></i>
 
-                <i class="ri-arrow-right-up-line"></i>
+                <span>BRANDING</span>
+                <i class="ri-star-fill"></i>
 
-            </div>
-
-        </a>
-
-
-        <a href="#" class="project reveal">
-
-            <div class="project-image project-three">
-
-                <div class="project-overlay">
-
-                    <span>03 / ARCHITECTURE</span>
-
-                    <div class="project-arrow">
-                        <i class="ri-arrow-right-up-line"></i>
-                    </div>
-
-                </div>
+                <span>DIGITAL EXPERIENCE</span>
+                <i class="ri-star-fill"></i>
 
             </div>
 
-            <div class="project-info">
-
-                <div>
-                    <h3>EK Studio</h3>
-                    <span>Portfolio / Development</span>
-                </div>
-
-                <i class="ri-arrow-right-up-line"></i>
-
-            </div>
-
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- WHY -->
-
-<section class="section why">
-
-    <div class="why-visual reveal">
-
-        <div class="big-number">N</div>
-
-        <div class="why-orbit"></div>
-
-        <div class="why-badge">
-            <i class="ri-sparkling-2-line"></i>
-            DIGITAL FIRST
         </div>
 
-    </div>
 
+        <!-- ==================== HİZMETLER ==================== -->
 
-    <div class="why-content">
+        <section class="section services" id="services">
 
-        <div class="eyebrow reveal">
-            <span class="number">03</span>
-            Neden NOVA?
-        </div>
+            <div class="section-heading">
 
-        <h2 class="section-title reveal">
-            Tasarımın
-            <span class="gradient-text">ötesinde.</span>
-        </h2>
+                <div class="eyebrow reveal">
 
-        <p class="section-description reveal">
-            Bir web sitesinin sadece güzel görünmesi yeterli değil.
-            İnsanların sizi bulması, anlaması ve harekete geçmesi gerekiyor.
-        </p>
+                    <span class="number">01</span>
+                    Hizmetler
 
-
-        <div class="feature-list">
-
-            <div class="feature reveal">
-
-                <div class="feature-icon">
-                    <i class="ri-flashlight-line"></i>
                 </div>
 
-                <div>
-                    <h3>Hız odaklı</h3>
+
+                <h2 class="section-title reveal">
+
+                    Markanız için
+
+                    <span class="gradient-text">
+                        ne yapabiliriz?
+                    </span>
+
+                </h2>
+
+
+                <p class="section-description reveal">
+
+                    Sadece güzel görünen değil,
+                    işletmenize gerçek değer katan
+                    dijital çözümler geliştiriyoruz.
+
+                </p>
+
+            </div>
+
+
+            <div class="services-grid">
+
+
+                <article class="service-card reveal">
+
+                    <div class="service-number">01</div>
+
+                    <div class="service-icon">
+
+                        <i class="ri-layout-4-line"></i>
+
+                    </div>
+
+                    <h3>Web Tasarım</h3>
+
                     <p>
-                        Gereksiz yüklerden arındırılmış,
-                        hızlı ve akıcı deneyimler.
+
+                        Markanızın kimliğine özel,
+                        modern ve kullanıcı odaklı
+                        web deneyimleri.
+
                     </p>
+
+                    <div class="service-link">
+
+                        Detayları keşfet
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article class="service-card featured reveal">
+
+                    <div class="service-number">02</div>
+
+                    <div class="service-icon">
+
+                        <i class="ri-code-s-slash-line"></i>
+
+                    </div>
+
+                    <h3>Web Geliştirme</h3>
+
+                    <p>
+
+                        Temiz kod, yüksek performans ve
+                        tüm cihazlarda kusursuz çalışan
+                        web siteleri.
+
+                    </p>
+
+                    <div class="service-link">
+
+                        Detayları keşfet
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article class="service-card reveal">
+
+                    <div class="service-number">03</div>
+
+                    <div class="service-icon">
+
+                        <i class="ri-rocket-2-line"></i>
+
+                    </div>
+
+                    <h3>SEO & Performans</h3>
+
+                    <p>
+
+                        Daha hızlı açılan,
+                        arama motorlarına uygun ve
+                        kullanıcı deneyimi güçlü siteler.
+
+                    </p>
+
+                    <div class="service-link">
+
+                        Detayları keşfet
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </article>
+
+
+                <article class="service-card reveal">
+
+                    <div class="service-number">04</div>
+
+                    <div class="service-icon">
+
+                        <i class="ri-smartphone-line"></i>
+
+                    </div>
+
+                    <h3>Mobil Deneyim</h3>
+
+                    <p>
+
+                        Telefon, tablet ve masaüstünde
+                        kusursuz çalışan responsive tasarımlar.
+
+                    </p>
+
+                    <div class="service-link">
+
+                        Detayları keşfet
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== İSTATİSTİKLER ==================== -->
+
+        <section class="stats-section">
+
+            <div class="stats-grid">
+
+                <div class="stat reveal">
+
+                    <strong data-target="24">0</strong>
+                    <span>+</span>
+
+                    <p>Tamamlanan proje</p>
+
+                </div>
+
+
+                <div class="stat reveal">
+
+                    <strong data-target="98">0</strong>
+                    <span>%</span>
+
+                    <p>Müşteri memnuniyeti</p>
+
+                </div>
+
+
+                <div class="stat reveal">
+
+                    <strong data-target="4">0</strong>
+                    <span>.9/5</span>
+
+                    <p>Ortalama değerlendirme</p>
+
+                </div>
+
+
+                <div class="stat reveal">
+
+                    <strong data-target="3">0</strong>
+                    <span>+</span>
+
+                    <p>Yıllık deneyim</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== ÇALIŞMALAR ==================== -->
+
+        <section class="section work" id="work">
+
+            <div class="section-heading work-heading">
+
+                <div>
+
+                    <div class="eyebrow reveal">
+
+                        <span class="number">02</span>
+                        Seçili çalışmalar
+
+                    </div>
+
+
+                    <h2 class="section-title reveal">
+
+                        Fikirleri
+
+                        <span class="gradient-text">
+                            gerçeğe dönüştürüyoruz.
+                        </span>
+
+                    </h2>
+
+                </div>
+
+
+                <p class="section-description reveal">
+
+                    Her proje farklıdır.
+                    Her tasarım markanın hikâyesine
+                    göre şekillenir.
+
+                </p>
+
+            </div>
+
+
+            <div class="projects">
+
+
+                <a href="#"
+                   class="project project-large reveal">
+
+                    <div class="project-image project-one">
+
+                        <div class="project-overlay">
+
+                            <span>
+                                01 / E-COMMERCE
+                            </span>
+
+                            <div class="project-arrow">
+
+                                <i class="ri-arrow-right-up-line"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div>
+
+                            <h3>EK Store</h3>
+
+                            <span>
+                                E-Commerce / Art Direction
+                            </span>
+
+                        </div>
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </a>
+
+
+                <a href="#"
+                   class="project reveal">
+
+                    <div class="project-image project-two">
+
+                        <div class="project-overlay">
+
+                            <span>
+                                02 / RESTAURANT
+                            </span>
+
+                            <div class="project-arrow">
+
+                                <i class="ri-arrow-right-up-line"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div>
+
+                            <h3>Restaurant</h3>
+
+                            <span>
+                                Branding / Web Design
+                            </span>
+
+                        </div>
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </a>
+
+
+                <a href="#"
+                   class="project reveal">
+
+                    <div class="project-image project-three">
+
+                        <div class="project-overlay">
+
+                            <span>
+                                03 / ARCHITECTURE
+                            </span>
+
+                            <div class="project-arrow">
+
+                                <i class="ri-arrow-right-up-line"></i>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-info">
+
+                        <div>
+
+                            <h3>EK Studio</h3>
+
+                            <span>
+                                Portfolio / Development
+                            </span>
+
+                        </div>
+
+                        <i class="ri-arrow-right-up-line"></i>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== NEDEN NOVA ==================== -->
+
+        <section class="section why">
+
+            <div class="why-visual reveal">
+
+                <div class="big-number">N</div>
+
+                <div class="why-orbit"></div>
+
+                <div class="why-badge">
+
+                    <i class="ri-sparkling-2-line"></i>
+
+                    DIGITAL FIRST
+
                 </div>
 
             </div>
 
 
-            <div class="feature reveal">
+            <div class="why-content">
 
-                <div class="feature-icon">
-                    <i class="ri-user-heart-line"></i>
+                <div class="eyebrow reveal">
+
+                    <span class="number">03</span>
+                    Neden NOVA?
+
+                </div>
+
+
+                <h2 class="section-title reveal">
+
+                    Tasarımın
+
+                    <span class="gradient-text">
+                        ötesinde.
+                    </span>
+
+                </h2>
+
+
+                <p class="section-description reveal">
+
+                    Bir web sitesinin sadece güzel görünmesi yeterli değil.
+                    İnsanların sizi bulması, anlaması ve harekete geçmesi gerekiyor.
+
+                </p>
+
+
+                <div class="feature-list">
+
+
+                    <div class="feature reveal">
+
+                        <div class="feature-icon">
+
+                            <i class="ri-flashlight-line"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>Hız odaklı</h3>
+
+                            <p>
+
+                                Gereksiz yüklerden arındırılmış,
+                                hızlı ve akıcı deneyimler.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature reveal">
+
+                        <div class="feature-icon">
+
+                            <i class="ri-user-heart-line"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>Kullanıcı odaklı</h3>
+
+                            <p>
+
+                                Ziyaretçilerin aradığını kolayca
+                                bulabileceği sade ve anlaşılır arayüzler.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature reveal">
+
+                        <div class="feature-icon">
+
+                            <i class="ri-bar-chart-2-line"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>Sonuç odaklı</h3>
+
+                            <p>
+
+                                Sitenizi sadece vitrin değil,
+                                işletmenizin satış kanalı olarak tasarlıyoruz.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== SÜREÇ ==================== -->
+
+        <section class="section process" id="process">
+
+            <div class="section-heading center">
+
+                <div class="eyebrow reveal">
+
+                    <span class="number">04</span>
+                    Çalışma süreci
+
+                </div>
+
+
+                <h2 class="section-title reveal">
+
+                    Fikirden yayına
+
+                    <span class="gradient-text">
+                        4 adım.
+                    </span>
+
+                </h2>
+
+
+                <p class="section-description reveal">
+
+                    Karmaşık süreçleri sizin için basitleştiriyoruz.
+
+                </p>
+
+            </div>
+
+
+            <div class="process-grid">
+
+
+                <div class="process-item reveal">
+
+                    <span>01</span>
+
+                    <i class="ri-chat-3-line"></i>
+
+                    <h3>Keşif</h3>
+
+                    <p>
+
+                        Markanızı, hedef kitlenizi ve
+                        ihtiyaçlarınızı birlikte analiz ediyoruz.
+
+                    </p>
+
+                </div>
+
+
+                <div class="process-item reveal">
+
+                    <span>02</span>
+
+                    <i class="ri-pencil-ruler-2-line"></i>
+
+                    <h3>Tasarım</h3>
+
+                    <p>
+
+                        Markanıza özel görsel dili ve
+                        kullanıcı deneyimini oluşturuyoruz.
+
+                    </p>
+
+                </div>
+
+
+                <div class="process-item reveal">
+
+                    <span>03</span>
+
+                    <i class="ri-code-box-line"></i>
+
+                    <h3>Geliştirme</h3>
+
+                    <p>
+
+                        Tasarımı hızlı, güvenilir ve
+                        responsive bir web sitesine dönüştürüyoruz.
+
+                    </p>
+
+                </div>
+
+
+                <div class="process-item reveal">
+
+                    <span>04</span>
+
+                    <i class="ri-rocket-line"></i>
+
+                    <h3>Yayın</h3>
+
+                    <p>
+
+                        Son kontrolleri yapıyor ve projenizi
+                        dijital dünyaya taşıyoruz.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== REFERANS ==================== -->
+
+        <section class="section testimonial">
+
+            <div class="quote-mark">
+                “
+            </div>
+
+
+            <blockquote class="reveal">
+
+                NOVA ile çalışmaya başladıktan sonra markamızın
+                dijital görünümü tamamen değişti. Sadece güzel bir
+                site değil, gerçekten çalışan bir sistem ortaya çıktı.
+
+            </blockquote>
+
+
+            <div class="author reveal">
+
+                <div class="author-avatar">
+                    EK
                 </div>
 
                 <div>
-                    <h3>Kullanıcı odaklı</h3>
-                    <p>
-                        Ziyaretçilerin aradığını kolayca bulabileceği
-                        sade ve anlaşılır arayüzler.
-                    </p>
+
+                    <strong>
+                        Eren Küsmez
+                    </strong>
+
+                    <span>
+                        Kurucu — Ek Studio
+                    </span>
+
                 </div>
 
             </div>
 
+        </section>
 
-            <div class="feature reveal">
 
-                <div class="feature-icon">
-                    <i class="ri-bar-chart-2-line"></i>
+        <!-- ==================== SSS ==================== -->
+
+        <section class="section faq" id="faq">
+
+            <div class="faq-title">
+
+                <div class="eyebrow reveal">
+
+                    <span class="number">05</span>
+                    SSS
+
                 </div>
+
+
+                <h2 class="section-title reveal">
+
+                    Merak
+
+                    <span class="gradient-text">
+                        edilenler.
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <div class="faq-list">
+
+
+                <div class="faq-item reveal">
+
+                    <button class="faq-question">
+
+                        <span>
+                            Web sitesi ne kadar sürede hazırlanır?
+                        </span>
+
+                        <i class="ri-add-line"></i>
+
+                    </button>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Projenin kapsamına göre değişmekle birlikte,
+                            standart kurumsal web siteleri genellikle
+                            birkaç gün içerisinde yayına hazır hale gelir.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item reveal">
+
+                    <button class="faq-question">
+
+                        <span>
+                            Mobil uyumlu olacak mı?
+                        </span>
+
+                        <i class="ri-add-line"></i>
+
+                    </button>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Evet. Tasarımlarımız telefon, tablet ve
+                            masaüstü cihazlara uyumlu şekilde geliştirilir.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item reveal">
+
+                    <button class="faq-question">
+
+                        <span>
+                            Domain ve hosting işlemlerini siz mi yapıyorsunuz?
+                        </span>
+
+                        <i class="ri-add-line"></i>
+
+                    </button>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            İsterseniz domain, hosting ve yayına alma
+                            süreçlerinde de yardımcı olabiliriz.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item reveal">
+
+                    <button class="faq-question">
+
+                        <span>
+                            Sonradan sitede değişiklik yapabilir miyim?
+                        </span>
+
+                        <i class="ri-add-line"></i>
+
+                    </button>
+
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Evet. İçerik güncellemeleri ve teknik destek
+                            için ayrıca bakım hizmeti sunulabilir.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== CTA ==================== -->
+
+        <section class="section cta" id="contact">
+
+            <div class="cta-glow"></div>
+
+
+            <div class="cta-content reveal">
+
+                <div class="eyebrow">
+
+                    <span class="status-dot"></span>
+
+                    Birlikte başlayalım
+
+                </div>
+
+
+                <h2>
+
+                    Markanızı bir sonraki
+
+                    <span>
+                        seviyeye
+                    </span>
+
+                    taşıyalım.
+
+                </h2>
+
+
+                <p>
+
+                    Projenizi anlatın.
+                    Size nasıl yardımcı olabileceğimizi
+                    birlikte konuşalım.
+
+                </p>
+
+
+                <!-- Instagram -->
+
+                <a
+                    href="https://www.instagram.com/nova.digitalll/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="button button-primary big-button">
+
+                    Instagram'dan Ulaş
+
+                    <i class="ri-instagram-line"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+
+            <div>
+
+                <a href="#home"
+                   class="logo footer-logo">
+
+                    <span class="logo-mark">
+                        N
+                    </span>
+
+                    NOVA<span>.</span>
+
+                </a>
+
+
+                <p>
+
+                    Dijitalde fark yaratan
+                    deneyimler tasarlıyoruz.
+
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
 
                 <div>
-                    <h3>Sonuç odaklı</h3>
-                    <p>
-                        Sitenizi sadece vitrin değil,
-                        işletmenizin satış kanalı olarak tasarlıyoruz.
-                    </p>
+
+                    <span>
+                        Keşfet
+                    </span>
+
+                    <a href="#services">
+                        Hizmetler
+                    </a>
+
+                    <a href="#work">
+                        Çalışmalar
+                    </a>
+
+                    <a href="#process">
+                        Süreç
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        İletişim
+                    </span>
+
+                    <a href="#contact">
+                        Teklif Al
+                    </a>
+
+                    <a href="mailto:erenkusmez0502@gmail.com">
+                        E-posta
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        Sosyal
+                    </span>
+
+                    <a
+                        href="https://www.instagram.com/nova.digitalll/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Instagram
+
+                    </a>
+
+                    <!-- LinkedIn hesabın yoksa boş link bırakmıyoruz -->
+
                 </div>
 
             </div>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="footer-bottom">
 
+            <span>
+                © 2026 NOVA Digital. Tüm hakları saklıdır.
+            </span>
 
-
-<section class="section process" id="process">
-
-    <div class="section-heading center">
-
-        <div class="eyebrow reveal">
-            <span class="number">04</span>
-            Çalışma süreci
-        </div>
-
-        <h2 class="section-title reveal">
-            Fikirden yayına
-            <span class="gradient-text">4 adım.</span>
-        </h2>
-
-        <p class="section-description reveal">
-            Karmaşık süreçleri sizin için basitleştiriyoruz.
-        </p>
-
-    </div>
-
-
-    <div class="process-grid">
-
-        <div class="process-item reveal">
-
-            <span>01</span>
-
-            <i class="ri-chat-3-line"></i>
-
-            <h3>Keşif</h3>
-
-            <p>
-                Markanızı, hedef kitlenizi ve ihtiyaçlarınızı
-                birlikte analiz ediyoruz.
-            </p>
+            <span>
+                Designed with intention.
+            </span>
 
         </div>
 
+    </footer>
 
-        <div class="process-item reveal">
 
-            <span>02</span>
+    <!-- JavaScript -->
 
-            <i class="ri-pencil-ruler-2-line"></i>
-
-            <h3>Tasarım</h3>
-
-            <p>
-                Markanıza özel görsel dili ve kullanıcı deneyimini
-                oluşturuyoruz.
-            </p>
-
-        </div>
-
-
-        <div class="process-item reveal">
-
-            <span>03</span>
-
-            <i class="ri-code-box-line"></i>
-
-            <h3>Geliştirme</h3>
-
-            <p>
-                Tasarımı hızlı, güvenilir ve responsive bir
-                web sitesine dönüştürüyoruz.
-            </p>
-
-        </div>
-
-
-        <div class="process-item reveal">
-
-            <span>04</span>
-
-            <i class="ri-rocket-line"></i>
-
-            <h3>Yayın</h3>
-
-            <p>
-                Son kontrolleri yapıyor ve projenizi
-                dijital dünyaya taşıyoruz.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="section testimonial">
-
-    <div class="quote-mark">“</div>
-
-    <blockquote class="reveal">
-        NOVA ile çalışmaya başladıktan sonra markamızın
-        dijital görünümü tamamen değişti. Sadece güzel bir
-        site değil, gerçekten çalışan bir sistem ortaya çıktı.
-    </blockquote>
-
-    <div class="author reveal">
-
-        <div class="author-avatar">EK</div>
-
-        <div>
-            <strong>Eren Küsmez</strong>
-            <span>Kurucu — Ek Studio</span>
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="section faq" id="faq">
-
-    <div class="faq-title">
-
-        <div class="eyebrow reveal">
-            <span class="number">05</span>
-            SSS
-        </div>
-
-        <h2 class="section-title reveal">
-            Merak
-            <span class="gradient-text">edilenler.</span>
-        </h2>
-
-    </div>
-
-
-    <div class="faq-list">
-
-        <div class="faq-item reveal">
-
-            <button class="faq-question">
-
-                <span>Web sitesi ne kadar sürede hazırlanır?</span>
-
-                <i class="ri-add-line"></i>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Projenin kapsamına göre değişmekle birlikte,
-                    standart kurumsal web siteleri genellikle
-                    birkaç gün içerisinde yayına hazır hale gelir.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item reveal">
-
-            <button class="faq-question">
-
-                <span>Mobil uyumlu olacak mı?</span>
-
-                <i class="ri-add-line"></i>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Evet. Tasarımlarımız telefon, tablet ve
-                    masaüstü cihazlara uyumlu şekilde geliştirilir.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item reveal">
-
-            <button class="faq-question">
-
-                <span>Domain ve hosting işlemlerini siz mi yapıyorsunuz?</span>
-
-                <i class="ri-add-line"></i>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    İsterseniz domain, hosting ve yayına alma
-                    süreçlerinde de yardımcı olabiliriz.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="faq-item reveal">
-
-            <button class="faq-question">
-
-                <span>Sonradan sitede değişiklik yapabilir miyim?</span>
-
-                <i class="ri-add-line"></i>
-
-            </button>
-
-            <div class="faq-answer">
-
-                <p>
-                    Evet. İçerik güncellemeleri ve teknik destek
-                    için ayrıca bakım hizmeti sunulabilir.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="section cta" id="contact">
-
-    <div class="cta-glow"></div>
-
-    <div class="cta-content reveal">
-
-        <div class="eyebrow">
-            <span class="status-dot"></span>
-            Birlikte başlayalım
-        </div>
-
-        <h2>
-            Markanızı bir sonraki
-            <span>seviyeye</span>
-            taşıyalım.
-        </h2>
-
-        <p>
-            Projenizi anlatın. Size nasıl yardımcı
-            olabileceğimizi birlikte konuşalım.
-        </p>
-
-        <a
-            href="https://www.instagram.com/nova.digitalll/?utm_source=ig_web_button_share_sheet"
-            target="_blank"
-            class="button button-primary big-button">
-
-            İnstagram'dan Ulaş
-            <i class="https://www.instagram.com/nova.digitalll/?utm_source=ig_web_button_share_sheet"></i>
-
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<footer class="footer">
-
-    <div class="footer-top">
-
-        <div>
-
-            <a href="#home" class="logo footer-logo">
-                <span class="logo-mark">N</span>
-                NOVA<span>.</span>
-            </a>
-
-            <p>
-                Dijitalde fark yaratan
-                deneyimler tasarlıyoruz.
-            </p>
-
-        </div>
-
-
-        <div class="footer-links">
-
-            <div>
-
-                <span>Keşfet</span>
-
-                <a href="#services">Hizmetler</a>
-                <a href="#work">Çalışmalar</a>
-                <a href="#process">Süreç</a>
-
-            </div>
-
-            <div>
-
-                <span>İletişim</span>
-
-                <a href="#contact">Teklif Al</a>
-                <a href="mailto:erenkusmez0502@gmail.com">E-posta</a>
-        
-            </div>
-
-            <div>
-
-                <span>Sosyal</span>
-
-                <a href="https://www.instagram.com/nova.digitalll/?utm_source=ig_web_button_share_sheet" target="_blank">Instagram</a>
-                <a href="#" target="_blank">LinkedIn</a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="footer-bottom">
-
-        <span>© 2026 NOVA Digital. Tüm hakları saklıdır.</span>
-
-        <span>Designed with intention.</span>
-
-    </div>
-
-</footer>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
