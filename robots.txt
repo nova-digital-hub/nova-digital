@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nova-digital-hub.github.io/nova-digital/sitemap.xml
